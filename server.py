@@ -9,9 +9,9 @@ def auth():
     machine_id = request.args.get('machine_id')
 
     if key == "ABC123" and machine_id == "XYZ987":
-        return "True"
+        return "[status] result=True"
     else:
-        return "True"
+        return "[status] result=True"
 
 # 🔥 BURASI ÖNEMLİ!
 if __name__ == '__main__':
